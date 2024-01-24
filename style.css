@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: red;
+  animation: bong 1s infinite alternate;
+}
+
+@keyframes bong {
+  from {
+    margin-top: 0;
+  }
+
+  to {
+    margin-top: 40px;
+  }
+}
